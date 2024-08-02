@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FaithSec- Orçamento</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        .container_top {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container_mid {
+            padding: 15px 0;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            margin: auto;
+        }
+
+        .container_bottom {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .red {
+            max-width: 30%;
+            height: 650px;
+            background-color: #56A3A6;
+            text-align: center;
+            margin: auto;
+            border-radius: 12px;
+            padding: 10px;
+        }
+
+        .blue {
+            background-color: #56A3A6;
+            text-align: center;
+            margin: 10px;
+            padding: 10px;
+            box-shadow: 1px 1px 19px 2px #000000;
+            border-radius: 10px;
+        }
+
+        img {
+            width: 50px;
+            height: 50px;
+            text-align: center;
+        }
+
+        li {
+            list-style-type: none;
+            text-decoration: none;
+            color: var(--preto);
+            text-align: left;
+        }
+
+        .classP:hover {
+            box-shadow: 1px 1px 19px 2px #000000;
+        }
+
+        .classP {
+            width: 100px;
+            padding: 10px;
+            background-color: #59FFA0;
+            margin: auto;
+        }
+
+        input {
+            width: 48%;
+            border-radius: 0%;
+            outline: none;
+            border-bottom: 2px solid #000000;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="titulo">
+            <h1><a href="index.html">FaithSec</a></h1>
+        </div>
+        <div class="nav">
+            <nav>
+                <a href="index.html">Início</a>
+                <a href="orcamento.html">Orçamento</a>
+                <a href="suporte.html">Suporte</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container_top">
+            <div class="blue">
+                <h1>
+                    Olá empresa!
+                </h1>
+                <h2 style="font-size: 0.9em;">
+                    Ao utilizar nosso sistema nós estamos garantindo comunicação, eficiência e segurança
+                </h2>
+                <br />
+                <p>
+                    Nosso sistema é de possível escalabilidade, por isso estamos oferecendo um valor especifíco para
+                    nosso clientes!
+                </p>
+            </div>
+        </div>
+        <div class="container_mid">
+            <div class="red">
+
+                <h2 style="font-size: 0.9em;">
+                    Clínica local, posto de saúde, unidade de saúde comunitária.
+                </h2>
+                <p style="font-size: 0.7em;">
+                    pequena escala
+                </p>
+                <img style="width: 100%; height: 200px;" src="imagens/postodesaude.png" alt="posto de saude" />
+
+                <br />
+
+                <ul>
+                    <p>
+                        2 a 10 de internação, distribuídos em quartos individuais, duplos ou enfermarias.
+                    </p>
+                    </p>
+                    <br />
+                    <li>1 tablet, um tablet em um corredor de 5m;</li> <br />
+                    <li>Botão de chamada vermelho ; </li> <br />
+                    <li>Luzes Led em ESP32 na cor branca e vermelha nas portas dos quartos; </li> <br />
+                    <li>Display no posto principal setor; </li> <br />
+                    <li>Manutenção do sistema.</li>
+                </ul>
+                <br />
+                <br />
+                <br />
+                <br />
+
+
+                <p class="classP">
+                    <strong>Ver valores:</strong>
+                </p>
+
+            </div>
+            <div class="red">
+
+
+                <h2 style="font-size: 0.9em;">
+                    Instituição hospitalar de porte médio, hospital de tamanho intermediário.
+                </h2>
+                <p style="font-size: 0.7em;">
+                    média escala
+                </p>
+                <img style="width: 100%; height: 200px;" src="imagens/medioporte.png"
+                    alt="dois leitos de hospital com pacientes deitados" />
+
+                <br />
+
+                <ul>
+                    <p>
+                        50 a 200 leitos de internação, distribuídos em quartos individuais, duplos ou enfermarias.
+                    </p>
+                    <br />
+                    <li>1 tablet, um tablet em um corredor de 5m;</li> <br />
+                    <li>Botão de chamada vermelho ; </li> <br />
+                    <li>Luzes Led em ESP32 na cor branca e vermelha nas portas dos quartos; </li> <br />
+                    <li>Display no posto principal setor; </li> <br />
+                    <li>Manutenção do sistema.</li> <br />
+                </ul>
+                <br />
+                <br />
+                <br />
+
+                <p class="classP">
+                    <strong>Ver valores:</strong>
+                </p>
+            </div>
+            <div class="red">
+
+                <h2 style="font-size: 0.9em;">
+                    Centro hospitalar, instituição hospitalar de grande dimensão.
+                </h2>
+                <p style="font-size: 0.7em;">
+                    grande escala
+                </p>
+                <img style="width: 100%; height: 200px;" src="imagens/grandescala.png"
+                    alt="enfermeiro cuidando de um paciente na frente do leito" />
+
+                <br />
+
+                <ul>
+                    <p>
+                        200 a 800 leitos de internação. Esses leitos podem incluir quartos individuais, quartos duplos e
+                        enfermarias
+                    </p>
+                    <br />
+                    <li>1 tablet, um tablet em um corredor de 3m;</li> <br />
+                    <li>Botão de chamada vermelho ; </li> <br />
+                    <li>Luzes Led em ESP32 na cor branca e vermelha nas portas dos quartos; </li> <br />
+                    <li>Display no posto principal setor; </li> <br />
+                    <li>Manutenção do sistema.</li>
+                </ul>
+                <br />
+                <br />
+                <br />
+
+                <p class="classP">
+                    <strong>Ver valores:</strong>
+                </p>
+            </div>
+        </div>
+
+        <div class="container_bottom">
+            <div class="blue">
+                <h3>Precisa de um orçamento especial?</h3>
+                <form id="myForm" style="text-align: left;">
+                    <fieldset>
+                        <label for="idNome">Nome da Empresa:</label>
+                        <input  type="text" id="idNome" name="nome_da_empresa"   /> <br /><br />
+            
+                        <label for="idTablet">Quantidade de tablets:</label>
+                        <input  type="number" id="idTablet" name="quantidade_tablets"  />
+                        <br /><br />
+            
+                        <label for="idLeito">Quantidade de Leitos:</label>
+                        <input  type="number" id="idLeito" name="quantidade_leitos"   />
+                        <br /><br />
+            
+                        <label for="idQuarto">Quantidade de quartos:</label>
+                        <input  type="number" id="idQuarto" name="quantidade_quartos"  />
+                        <br /><br />
+            
+                        <label for="idEnfer">Quantidade de enfermeiros:</label>
+                        <input  type="number" id="idEnfer" name="quantidade_enfermeiros"  />
+                        <br /><br />
+            
+                        <label for="idCep">CEP:</label>
+                        <input required type="text" id="idCep" name="cep" maxlength="8"  />
+                        <br /><br />
+            
+                        <label for="idBairo">Bairro:</label>
+                        <input  type="text" id="idBairo" name="bairro"  />
+                        <br /><br />
+            
+                        <label for="idRua">Rua:</label>
+                        <input  type="text" id="idRua" name="rua"  />
+                        <br /><br />
+            
+                        <label for="idNumero">Numero:</label>
+                        <input required type="number" id="idNumero" name="numero"  />
+                        <br /><br />
+            
+                        <label for="idComplemento">Complemento:</label>
+                        <input  type="text" id="idComplemento" name="complemento"  />
+                        <br /><br />
+            
+                        <div id="mensagemErro" style="color: red;"></div>
+                        
+                        <br />
+            
+                        <button id="idEnviar" type="submit">Enviar</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+    </main>
+    <footer>
+        <div class="fot">
+            <div class="line"><hr></div>
+            
+            <div class="social-icons">
+                <a href="#"><img class="img_foot" src="imagens/email.png" alt="Gmail" /></a>
+                <a href="#"><img class="img_foot" src="imagens/instagram.png" alt="Instagram" /></a>
+                <a href="#"><img class="img_foot" src="imagens/whatsapp.png" alt="Whatsapp" /></a>
+            </div>
+
+            <div class="line"><hr></div>
+        </div>
+        <p>© 2023 FaithSec. Todos os direitos reservados.</p>
+    </footer>
+    <script src="./orcamento.js"></script>
+</body>
+
+</html>
